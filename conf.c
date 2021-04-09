@@ -279,7 +279,7 @@ conf_init(struct conf *c)
 	unsigned int	i;
 
 	c->stickygroups = 0;
-	c->bwidth = 1;
+	c->bwidth = 0;
 	c->mamount = 1;
 	c->htile = 50;
 	c->vtile = 50;
